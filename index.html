@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,17 +9,81 @@
     <link rel="stylesheet" href="./styles/responsive.css" />
 
 </head>
+
 <body>
     <header>
-        <nav>
-            <h2>Happy Trails Travel</h2>
+      <!--  navbar section start here -->
+        <nav class="nav-bar">
+          <div class="nav-container">
+               <img src="./Images/Group 40071 (2).png" alt="">
+               <h2>Happy <span class="trails-color" >Trails</span> Travel</h2>
+          </div>
+          <div class="items-container">
+               <a href=""><span class="home-color" >Home</span></a>
+               <a href="">Packages</a>
+               <a href="">Testimonial</a>
+               <a href="">Blog</a>
+               <a href="">Contact</a>
+          </div>
         </nav>
+        <!--  navbar section ends here -->
     </header>
     <main>
 
     </main>
     <footer>
 
-    </footer>  
+    </footer>
 </body>
+
 </html>
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap')
+</style>
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+
+/*navbar styles*/
+
+.nav-container { 
+    min-height: 20px;
+    display: flex;
+    font-size: large;
+    align-items: center;
+    width: 50%;
+    
+}
+
+.nav-container img {
+    object-fit: cover;
+}
+.trails-color {
+    color: orangered;
+    
+}
+
+.home-color {
+    color: solid orangered;
+}
+.nav-bar {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.items-container{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.items-container a {
+     text-decoration: none;
+     font-size: 20px;
+}
