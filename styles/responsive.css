@@ -1,8 +1,33 @@
-@media screen and (max-width: 600px); {
+/*for small device*/
+@media screen and (max-width:600px)  {
+    
+.nav-container {
+    flex-direction: column;
+}
 
-    .nav-container a {
-       flex-direction: column; 
-      
-   }
-   
+.items-container {
+   flex-direction: column;
+}
+.banner {
+flex-direction: column;
+    }
+
+    .banner-content {
+        background-image: url('../Images/Group\ 13\ \(1\)\ \(1\).png');
+        flex-direction: column;
+    }
+    .banner-pera {
+       flex-direction: column;
+    }
+    
+    .main {
+        flex-direction: column;
+    }
+    .destination-img {
+        flex-direction: column;
+    }
+    .footer-section {
+        flex-direction: column;
+    }
+
 }

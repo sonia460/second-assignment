@@ -68,8 +68,6 @@ body {}
     max-width: 1200px;
     border-radius: 16px;
     margin: 0 auto;
-
-
 }
 
 .banner-explore {
@@ -91,7 +89,6 @@ body {}
     font-size: 16px;
     font-weight: 400;
     margin: 0% auto;
-
 }
 
 /* Main section styles*/
@@ -100,14 +97,12 @@ body {}
     max-width: 1200px;
     display: flex;
     flex-wrap: wrap;
-
     justify-content: space-between;
     margin: 60px auto;
 }
 
 .main-part {
     max-width: 50%;
-
 }
 
 .main-img {
@@ -134,9 +129,8 @@ body {}
 }
 
 /* destination section style */
-.section-desti {
-    
-}
+.section-desti {}
+
 .destination {}
 
 .destination-title {
@@ -150,10 +144,11 @@ body {}
     color: rgba(19, 19, 24, 0.70);
     text-align: center;
     font-size: 20px;
-    
+
 }
-.destination-img{
-       
+
+.destination-img {
+
     color: #FFF;
     display: flex;
     margin-bottom: 13px;
@@ -163,4 +158,315 @@ body {}
     font-weight: 800px;
 }
 
+/*style choose section*/
+.choose-section {}
 
+.choose-text {
+    max-width: 1200px;
+    height: 150px;
+    justify-content: center;
+    margin: 0 auto;
+
+}
+
+.choose-title {
+    color: #131318;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.choose-pera {
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 70px;
+}
+
+.hotel-service {
+    max-width: 1200px;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.hotel {
+    width: 573px;
+    height: 284px;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+
+}
+
+.hotel-title {
+    color: #131318;
+    text-align: start;
+    font-size: 24px;
+    font-weight: 800;
+    margin-inline-start: 20px;
+}
+
+.hotel-pera {
+    width: 486px;
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    margin-inline-start: 20px;
+}
+
+.service {
+    width: 573px;
+    height: 284px;
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+}
+
+.service-title {
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+    margin-inline-start: 20px;
+
+}
+
+.service-pera {
+    width: 486px;
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    margin-inline-start: 20px;
+}
+
+.price {
+    width: 573px;
+    height: 284px;
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+    margin: 20px auto;
+}
+
+.price-title {
+
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+    margin-inline-start: 20px;
+}
+
+.price-pera {
+    width: 486px;
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    margin-inline-start: 20px;
+
+
+}
+
+.icon {
+    margin-top: 30px;
+    margin-inline-start: 20px;
+}
+
+/*discount section style*/
+.discount-section {}
+
+.discount {}
+
+.discount-title {
+    color: #131318;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.discount-pera {
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.discount-img {
+    width: 1100px;
+
+    justify-content: center;
+    margin: 0px auto;
+}
+
+.img-1 {
+    margin-top: 25px;
+
+}
+
+.img-2 {
+    margin-top: 25px;
+}
+
+.img-3 {
+    margin-top: 25px;
+}
+
+.dis-btn {
+    width: 210px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FF5400;
+    justify-content: center;
+
+}
+
+.dis-btntext {
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    margin: auto;
+
+}
+
+.dis-div {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+/*simple section style*/
+.simple-section {
+    max-width: 1200px;
+    display: flex;
+    margin: 30px auto;
+}
+
+.simple-part {}
+
+.simple-title {
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+
+}
+
+.simple-img {
+    margin-top: 40px;
+
+}
+
+/*newsletter section style*/
+.sus-section {
+    max-width: 1200px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.sus-coctent {
+    width: 474px;
+    height: 422px;
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+}
+
+.sus-title {
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.sus-pera {
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+.sus-input {}
+
+.sus-email {
+    width: 393px;
+    height: 52px;
+    justify-content: center;
+    margin: auto;
+    background: rgba(19, 19, 24, 0.05);
+}
+
+.sus-pass {
+    width: 393px;
+    height: 52px;
+    background: rgba(19, 19, 24, 0.05);
+    color: rgba(19, 19, 24, 0.30);
+
+    font-size: 16px;
+
+    font-weight: 400;
+
+}
+
+.sus-btn {
+    width: 393px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FF5400;
+}
+
+.sus-text {
+    color: #FFF;
+    text-align: center;
+
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.sus-img {
+    width: 672px;
+    height: 422px;
+}
+
+/*footer section style*/
+.footer-section {
+    width: 1500px;
+    height: 500px;
+    background: rgba(19, 19, 24, 0.05);
+    margin: 60px auto;
+}
+
+
+.footer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.trail-color {
+    color: orangered;
+}
+
+.footer-pera {
+    color: #5A5A5D;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 170px;
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+
+}
